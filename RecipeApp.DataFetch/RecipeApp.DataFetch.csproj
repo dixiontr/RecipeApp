@@ -8,4 +8,9 @@
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta1" />
+      <PackageReference Include="RestSharp" Version="108.0.2-alpha.0.4" />
+    </ItemGroup>
+
 </Project>

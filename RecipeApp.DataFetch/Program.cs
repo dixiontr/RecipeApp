@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using RecipeApp.DataFetch.TastyApp.Client;
 
-Console.WriteLine("Hello, World!");
+var client = new TastyAppClient();
+
+// client.FetchData();
