@@ -1,15 +1,16 @@
-﻿using System.Net;
+﻿using System.Diagnostics;
+using System.Net;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
 using RecipeApp.Core.Wrappers.Exception;
 using Serilog;
 
-namespace RecipeApp.Core.Middlewares
+namespace RecipeApp.Core.Application.Middlewares
 {
 
     public class ExceptionHandlingMiddleware : IMiddleware
     {
-        private ILogger _logger;
+        private readonly ILogger _logger;
 
         public ExceptionHandlingMiddleware(ILogger logger)
         {
