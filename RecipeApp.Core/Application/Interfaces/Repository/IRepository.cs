@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 using RecipeApp.Core.Domain;
 
-namespace RecipeApp.Core.Application.Repository
+namespace RecipeApp.Core.Application.Interfaces.Repository
 {
 
     public interface IRepository<T> where T : IEntity
